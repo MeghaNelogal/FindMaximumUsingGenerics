@@ -9,7 +9,6 @@ namespace FindMaximumNumber
     public class GenericMaximum<T> where T : IComparable
     {
         public T firstValue, secondValue, thirdValue;
-
         public GenericMaximum(T firstValue, T secondValue, T thirdValue)
         {
             this.firstValue = firstValue;
