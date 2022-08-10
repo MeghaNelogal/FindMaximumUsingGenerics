@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace FindMaximumNumber
 {
      public class GenericMax<T> where T : IComparable
-    {
+     {
         public T[] value;
         public GenericMax(T[] value)
         {
@@ -28,6 +28,6 @@ namespace FindMaximumNumber
             var max = MaxValue(this.value);
             Console.WriteLine("Maximum value is " + max);
         }
-    }
+     }
 }
        
