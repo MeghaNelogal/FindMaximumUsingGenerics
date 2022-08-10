@@ -10,10 +10,15 @@
 
             //Console.WriteLine("The Maximum Integer is:- " + value);
 
-            FindMaximumFloat maximum = new FindMaximumFloat();
-            double value = maximum.MaximumFloatNumber(3.6, 5.7, 7.7);
+            //FindMaximumFloat maximum = new FindMaximumFloat();
+            //double value = maximum.MaximumFloatNumber(3.6, 5.7, 7.7);
 
-            Console.WriteLine("The Maximum Float is:- " + value);
+            //Console.WriteLine("The Maximum Float is:- " + value);
+
+          MaximumString maximum = new MaximumString();
+            string str = maximum.MaximumStringValue("Apple", "Peach", "Banaana");
+
+            Console.WriteLine("The MaximumString is: " + str);
         }
     }
 }
